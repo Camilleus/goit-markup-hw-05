@@ -600,23 +600,26 @@ li div p {
 }
 .card2-description {
     position: absolute;
-    background-color: var(--primary-color);
     color: var(--white-color);
+    background-color: #2196F3E5;
     overflow: hidden;
     align-self: center;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
     display: flex;
     height: 294px;
-    width:100%;
     top:0;
     transform: translateY(+100%);
-    transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: (0.4, 0, 0.2, 1);   
 }
 
 .card2-description:hover {
     transform: translateY(0);
-    transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card2 h6 {
     margin-left: 24px;
