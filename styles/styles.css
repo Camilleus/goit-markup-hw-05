@@ -609,13 +609,18 @@ li div p {
 }
 
 .card2 img {
-    place-self: top;
-    margin-top: 0%;
-    position: relative;
 }
+
+.card2 figure {
+    width: 100%;
+    height:100%;
+    
+}
+
 
 .card2-description-item {
     position: absolute;
+    inset: auto 0 0;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -633,6 +638,7 @@ li div p {
 }
 
 .card2-description-text {
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
