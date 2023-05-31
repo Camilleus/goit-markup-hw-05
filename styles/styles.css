@@ -599,6 +599,7 @@ li div p {
     width: 370px;
     background: var(--white-color);
     border: 1px solid #EEEEEE;
+    height:450px;
     position: relative;
     overflow: hidden;
 }
@@ -609,18 +610,50 @@ li div p {
 }
 
 .card2 img {
+    width: 370px;
 }
 
+.card2-overflow {
+        width: 370px;
+}
 .card2 figure {
     width: 100%;
     height:100%;
+    margin: 0 0 0 0;
     
 }
 
+.box {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: translateY(-100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+  transform: translatex(0);
+}
+
+.overlay p {
+  color: transparent;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
 
 .card2-description-item {
     position: absolute;
-    inset: auto 0 0;
+    inset: 0;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -643,6 +676,7 @@ li div p {
     font-size: 18px;
     line-height: 156%;
     letter-spacing: 0.03em;
+    padding:10%;
     color:transparent;
     width: 370px;
     height: 294px;
