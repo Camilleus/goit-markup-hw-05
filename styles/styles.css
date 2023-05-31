@@ -56,7 +56,7 @@ li {
     list-style: none;
     align-items: center;
 }
- 
+
 
 .container {
     width: 1200px;
@@ -86,6 +86,7 @@ button {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
 /* SVGs settings */
 
 
@@ -183,21 +184,22 @@ nav li a:hover {
     color: var(--primary-color);
     fill: var(--primary-color);
     cursor: pointer;
-    
+
 }
 
 .agency1 {
     text-decoration: underline 4px;
     color: var(--secondary-color);
     fill: var(--secondary-color);
-    text-underline-offset:31px;
+    text-underline-offset: 31px;
 }
 
 .agency1:hover {
-        color: var(--primary-color);
-        fill: var(--primary-color);
-        cursor: pointer;
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    cursor: pointer;
 }
+
 .portfolio1 {
     text-decoration: underline 4px;
     color: var(--secondary-color);
@@ -210,19 +212,23 @@ nav li a:hover {
     fill: var(--primary-color);
     cursor: pointer;
 }
+
 .h-mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
+
 .h-mail svg {
     margin-right: 5px;
 }
+
 .h-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
+
 .h-tel svg {
     margin-right: 5px;
 }
@@ -230,19 +236,19 @@ nav li a:hover {
 /* hero section settings */
 
 .hero {
-        align-items: center;
-        height: 600px;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        box-sizing: border-box;
-        background-position: center;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-            url(../images/mainpage/herobackgroundimg.jpg);
-    }
+    align-items: center;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    background-position: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/mainpage/herobackgroundimg.jpg);
+}
 
 .hero-header {
     Font-size: 44px;
@@ -292,7 +298,7 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     flex-grow: 1;
-    
+
 }
 
 .desc ul li img {
@@ -310,7 +316,7 @@ nav li a:hover {
     align-self: center;
     display: flex;
     width: 70px;
-    height:70px
+    height: 70px
 }
 
 .sub-desc-rectangle {
@@ -321,10 +327,11 @@ nav li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-        color: var(--secondary-color);
+    color: var(--secondary-color);
 }
+
 .sub-desc-rectangle:hover {
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
 
 .sub-desc h4 {
@@ -361,6 +368,7 @@ nav li a:hover {
     width: 370px;
     height: 294px;
 }
+
 .sub-desc2 img {
     position: relative;
     place-self: top;
@@ -368,8 +376,8 @@ nav li a:hover {
 }
 
 .sub-desc2bg {
-    height:70px;
-    width:370px;
+    height: 70px;
+    width: 370px;
     background: rgba(47, 48, 58, 0.8);
     align-self: bottom;
     justify-content: center;
@@ -378,17 +386,18 @@ nav li a:hover {
     place-self: bottom;
     margin-bottom: 0%;
     position: relative;
-    top:-70px;
+    top: -70px;
 }
+
 .sub-desc2 p {
-    position:relative;
+    position: relative;
     font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 /* Style of the "Our Team" section */
@@ -416,6 +425,7 @@ nav li a:hover {
     background-color: var(--light-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .card:hover {
     cursor: pointer;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -483,14 +493,16 @@ li div p {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    display:flex;
-}
-.card-socialmedia-item:hover {
-        background: var(--primary-color);
-        fill: var(--white-color);
+    display: flex;
 }
 
-.card-socialmedia:focus, .card-socialmedia:hover {
+.card-socialmedia-item:hover {
+    background: var(--primary-color);
+    fill: var(--white-color);
+}
+
+.card-socialmedia:focus,
+.card-socialmedia:hover {
     fill: var(--white-color);
 }
 
@@ -511,7 +523,7 @@ li div p {
     margin-top: 94px;
     display: flex;
     justify-content: space-between;
-    margin-bottom:94px;
+    margin-bottom: 94px;
 }
 
 .section4-rectangle {
@@ -526,15 +538,17 @@ li div p {
     color: var(--secondary-color);
     fill: var(--secondary-color);
 }
+
 .section4-rectangle:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    fill:var(--primary-color);
+    fill: var(--primary-color);
     cursor: pointer;
 }
+
 .section4-client {
-    width:106px;
-    height:60px;
+    width: 106px;
+    height: 60px;
 }
 
 
@@ -542,8 +556,8 @@ li div p {
 /* Portfolio settings */
 
 .portfolio-section-1 {
-    padding-top:94px;
-    padding-bottom:94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-buttons {
@@ -586,6 +600,7 @@ li div p {
     background: var(--white-color);
     border: 1px solid #EEEEEE;
     position: relative;
+    overflow: hidden;
 }
 
 .card2:hover {
@@ -598,29 +613,47 @@ li div p {
     margin-top: 0%;
     position: relative;
 }
-.card2-description {
+
+.card2-description-item {
     position: absolute;
-    color: var(--white-color);
-    background-color: #2196F3E5;
     overflow: hidden;
-    align-self: center;
     justify-content: center;
     align-items: center;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 294px;
+    transform: translateY(+100%);
+    transition-duration: 250ms;
+    transition-timing-function: (0.4, 0, 0.2, 1);
+}
+
+.card2-description-item:hover {
+    transform: translateY(0);
+}
+
+.card2-description-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
     letter-spacing: 0.03em;
-    display: flex;
+    color:transparent;
+    width: 370px;
     height: 294px;
-    top:0;
-    transform: translateY(+100%);
+    align-self: center;
     transition-duration: 250ms;
-    transition-timing-function: (0.4, 0, 0.2, 1);   
+    transition-timing-function: (0.4, 0, 0.2, 1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-.card2-description:hover {
+.card2-description-text:hover {
+    color: var(--white-color);
+    background-color: #2196F3E5;
     transform: translateY(0);
 }
+
 .card2 h6 {
     margin-left: 24px;
     margin-right: 24px;
@@ -631,7 +664,7 @@ li div p {
     line-height: 200%;
 }
 
-.card2-subtitle  {
+.card2-subtitle {
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 20px;
@@ -652,12 +685,12 @@ footer {
     right: 0;
     z-index: 999;
     align-items: center;
-    display:flex;
+    display: flex;
 }
 
 .footer {
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .footer1 {
@@ -693,7 +726,7 @@ address {
 }
 
 address ul {
-    height:100%;
+    height: 100%;
 }
 
 .f-link {
@@ -713,9 +746,9 @@ address ul {
 .footer2 {
     justify-content: center;
     align-items: center;
-    padding-left:70px;
+    padding-left: 70px;
     flex-direction: column;
-} 
+}
 
 .footer2 h5 {
     font-weight: 700;
@@ -737,6 +770,7 @@ address ul {
     justify-content: center;
     display: flex;
 }
+
 .footer2-socials-item:hover {
     cursor: pointer;
     background: var(--primary-color);
@@ -744,15 +778,17 @@ address ul {
 
 .footer2-socials {
     width: 206px;
-    height:44px;
-    display:flex;
+    height: 44px;
+    display: flex;
     justify-content: space-between;
-    fill:var(--white-color);
+    fill: var(--white-color);
 
 }
+
 .footer2-social {
     fill: var(--white-color);
 }
+
 .footer2-social:hover {
     fill: var(--white-color);
 }
