@@ -188,11 +188,11 @@ nav li a:hover {
 
 .agency1 {
     text-decoration: underline 4px;
-    border-radius: 2px;
     color: var(--secondary-color);
     fill: var(--secondary-color);
-    text-underline-offset:32px;
+    text-underline-offset:31px;
 }
+
 .agency1:hover {
         color: var(--primary-color);
         fill: var(--primary-color);
@@ -200,10 +200,9 @@ nav li a:hover {
 }
 .portfolio1 {
     text-decoration: underline 4px;
-    border-radius: 2px;
     color: var(--secondary-color);
     fill: var(--secondary-color);
-    text-underline-offset: 32px;
+    text-underline-offset: 31px;
 }
 
 .portfolio1:hover {
@@ -216,13 +215,17 @@ nav li a:hover {
     font-size: 14px;
     line-height: 16px;
 }
-
+.h-mail svg {
+    margin-right: 5px;
+}
 .h-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
-
+.h-tel svg {
+    margin-right: 5px;
+}
 
 /* hero section settings */
 
@@ -580,13 +583,40 @@ li div p {
     justify-content: center;
     display: inline-block;
     width: 370px;
-    background: #FFFFFF;
+    background: var(--white-color);
     border: 1px solid #EEEEEE;
+    position: relative;
 }
 
 .card2:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+}
+
+.card2 img {
+    place-self: top;
+    margin-top: 0%;
+    position: relative;
+}
+.card2-description {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    overflow: hidden;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 294px;
+    width:100%;
+    top:0;
+    transform: translateY(+100%);
+    transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card2-description:hover {
+    transform: translateY(0);
+    transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card2 h6 {
     margin-left: 24px;
@@ -598,7 +628,7 @@ li div p {
     line-height: 200%;
 }
 
-.card2 p {
+.card2-subtitle  {
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 20px;
@@ -608,12 +638,6 @@ li div p {
     line-height: 188%;
     color: var(--secondary-color);
 }
-
-.card2 img {
-    place-self: top;
-    margin-top: 0%;
-}
-
 
 
 /* footer settings */
