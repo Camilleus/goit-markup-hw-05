@@ -186,6 +186,31 @@ nav li a:hover {
     
 }
 
+.agency1 {
+    text-decoration: underline 4px;
+    border-radius: 2px;
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
+    text-underline-offset:32px;
+}
+.agency1:hover {
+        color: var(--primary-color);
+        fill: var(--primary-color);
+        cursor: pointer;
+}
+.portfolio1 {
+    text-decoration: underline 4px;
+    border-radius: 2px;
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
+    text-underline-offset: 32px;
+}
+
+.portfolio1:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    cursor: pointer;
+}
 .h-mail {
     font-weight: 500;
     font-size: 14px;
