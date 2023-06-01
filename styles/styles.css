@@ -284,6 +284,16 @@ nav li a:hover {
 
 /* Modla Window settings */
 
+.modalbox {
+    height:100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .backdrop {
 
 }
@@ -768,6 +778,7 @@ footer {
     z-index: 999;
     align-items: center;
     display: flex;
+    margin-bottom:0;
 }
 
 .footer {
