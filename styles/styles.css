@@ -320,7 +320,7 @@ nav li a:hover {
 }
 .modalwindow {
 
-    margin-left:auto auto auto auto;
+    margin:15% auto auto;
     z-index: 2;
     backdrop-filter: 50%;
     width: 528px;
@@ -330,29 +330,42 @@ nav li a:hover {
     border-radius: 4px;
 }
 
-.modalwindow svg {
+.modalbox svg {
     border-radius: 50%;
     fill: transparent;
     color: transparent;
-}
-
-.modalwindow svg:hover {
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 50%;
-        fill:red;
-        color:red;
-}
-
-.modalwindow button {
-    align-items: center;
-    margin-left: auto;
     margin-right: 8px;
     margin-top: 8px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.modalbox svg:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+    fill:red;   
+    color:red;
+    cursor:pointer;
+}
+
+.modalbox button {
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-left:auto;
+    margin-bottom:auto;
     display: flex;
     color:transparent;
     background-color: transparent;
     border-color: transparent;
     border-radius: 50%;
+}
+.modalbox button svg:hover {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 50%;
+            fill: red;
+            color: red;
+            cursor: pointer;
 }
 
 /* Style of the "Our Qualities" section */
@@ -689,6 +702,7 @@ li div p {
 
 .card2-overflow {
 }
+
 .card2 figure {
     width: 100%;
     height:100%;
