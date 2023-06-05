@@ -88,6 +88,11 @@ button {
 
 }
 
+
+.is-hidden {
+    visibility: hidden;
+}
+
 /* SVGs settings */
 
 
