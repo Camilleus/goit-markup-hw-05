@@ -289,9 +289,6 @@ nav li a:hover {
 
 /* Modla Window settings */
 
-.hero-button:hover {
-}
-
 .modalbox {
     top:0;
     left:0;
@@ -315,8 +312,6 @@ nav li a:hover {
     position: absolute;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    visibility:hidden;
-    opacity: 50%;
     pointer-events:none;
 }
 
