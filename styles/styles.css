@@ -664,8 +664,7 @@ li div p {
 
 .cards2 {
     margin-top: 50px;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flexbox;
 }
 
 .card2 {
@@ -676,7 +675,8 @@ li div p {
     border: 1px solid #EEEEEE;
     height:450px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden;   
+    margin: 1% 0.65% 1%;
 }
 
 .card2:hover {
