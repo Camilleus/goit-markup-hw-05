@@ -315,10 +315,6 @@ nav li a:hover {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modalbox:hover {
-    visibility:visible;
-}
-
 .modalwindow {
     position: relative;
     margin:15% auto auto;
@@ -696,12 +692,6 @@ li div p {
     cursor: pointer;
 }
 
-.card2 img {
-}
-
-.card2-overflow {
-}
-
 .card2 figure {
     width: 100%;
     height:100%;
@@ -755,9 +745,6 @@ figure img {
     top: 0;
     width: 100%;
     height: 294px;
-}
-
-.card2-description-item:hover {
 }
 
 .card2-description-text {
